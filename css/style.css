@@ -156,6 +156,13 @@ a.button {
 .happyhour h4 {
   color: #fff;
 }
+.bof {
+  background: pink;
+}
+.bof-feature {
+  margin-bottom: 1em;
+  padding: 1em;
+}
 table {
   width: 100%;
 }
