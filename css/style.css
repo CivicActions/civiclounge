@@ -133,19 +133,23 @@ a.button {
   text-align: center;
 }
 .sponsors img {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   margin-top: 20px;
   max-width: 250px;
+  text-align: center;
   width: 100%;
 }
 .civicactions img {
-  max-width: 250px;
+  max-width: 275px;
 }
 .albatross img {
   max-width: 200px;
 }
 .drupalsquad img {
-  max-width: 250px;
+  max-width: 275px;
+}
+.nucivic img {
+  max-width: 275px;
 }
 .happyhour {
   background: #252525;
