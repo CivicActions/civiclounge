@@ -8,7 +8,7 @@ h1 {
   font-size: 4em;
 }
 h3, a, a:visited {
-  color: #D0021B;
+  color: #0d9ddb;
 }
 h4 {
   padding-bottom: .5em;
@@ -17,7 +17,7 @@ h4 {
   background: #252525;
 }
 .sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
-  background: #D0021B;
+  background: #0d9ddb;
 }
 .sub-nav dt a:hover, .sub-nav dd a.hover, .sub-nav li.hover a {
   color: ##252525;
@@ -35,7 +35,7 @@ h4 {
   text-align: center;
 }
 .icon {
-  color: #D0021B;
+  color: #0d9ddb;
   text-align: center;
 }
 .icon-link {
@@ -52,39 +52,39 @@ h4 {
   padding-bottom: 1em;
   padding-top: 1em;
 }
-.hero, .footer {
-  background: #D0021B url("../img/hero.png") 50% 50%; 
+.hero, .footer, .hero-acquia {
+  background: #0d9ddb url("../img/hero.png") 50% 50%; 
   color: #fff;
   text-align: center;
 }
-.hero {
+.hero-acquia {
+  background: #0d9ddb url("../img/hero.png") 50% 50%; 
+}
+.hero, .hero-acquia {
   margin-bottom: 1.5em; 
   padding-bottom: 100px;
   padding-top: 120px;
 }
-.hero img {
+.hero img, .hero-acquia img {
   height: auto;
   max-width: 500px;
   width: 100%;
 }
-.hero-sponsor-logo img {
-  max-width: 250px;
-}
-.hero h1, .hero h4 {
+.hero h1, .hero h4, .hero-acquia h1, .hero-acquia h4 {
   color: #fff;
   border: none;
 }
-.hero h4 {
+.hero h4, .hero-acquia h4 {
   letter-spacing: normal;
   padding-top: 1em;
 }
-.hero a:hover {
+.hero a:hover, .hero-acquia a:hover {
   color: #fff;
 }
-.hero ul, .hero li {
+.hero ul, .hero li, .hero-acquia ul, .hero-acquia li {
   list-style: none;
 }
-.hero ul {
+.hero ul, .hero-acquia ul {
   padding-bottom: 1em;
 }
 .footer {
@@ -124,25 +124,25 @@ h4 {
   font-size: 50px;
 }
 button, .button, .button:hover {
-  background: #D0021B;
-  border: 1px solid #D0021B;
+  background: #0d9ddb;
+  border: 1px solid #0d9ddb;
 }
 a.button {
   color: #fff;
 }
 a.hero-button {
-  color: #D0021B;
+  color: #0d9ddb;
   background: #fff;
 }
 a.hero-button:hover, .hero-acquia a.hero-button:hover {
-  color: #fff;
-  border-color: #fff;
-  background: transparent;
-}
-.hero-acquia a.hero-button {
-  background: #fff;
   border: 1px solid #0d9ddb;
   color: #0d9ddb;
+  background: #fff;
+}
+.hero-acquia a.hero-button {
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
 }
 .fa-5 {
   font-size: 150px;
