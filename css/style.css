@@ -54,6 +54,7 @@ h4 {
 }
 .hero, .footer {
   background: #D0021B url("../img/hero.png") 50% 50%; 
+  background: #D0021B url("../img/clhero.jpg") 50% 50%; 
   color: #fff;
   text-align: center;
 }
@@ -62,6 +63,9 @@ h4 {
   padding-bottom: 100px;
   padding-top: 120px;
 }
+.hero a {
+  color: #fff;
+}
 .hero img {
   height: auto;
   max-width: 500px;
@@ -69,6 +73,7 @@ h4 {
 }
 .hero-sponsor-logo img {
   max-width: 250px;
+  padding-bottom: 20px;
 }
 .hero h1, .hero h4 {
   color: #fff;
@@ -158,15 +163,19 @@ a.hero-button:hover, .hero-acquia a.hero-button:hover {
 .sponsors img {
   margin-bottom: 40px;
   margin-top: 20px;
-  max-width: 250px;
+  max-width: 300px;
   text-align: center;
   width: 100%;
 }
 .acquia img {
   max-width: 400px;
 }
-.civicactions img {
-  max-width: 275px;
+.sponsor-civicactions img {
+  margin-bottom: 40px;
+  margin-top: 35px;
+  max-width: 350px;
+  text-align: center;
+  width: 100%;
 }
 .albatross img {
   max-width: 200px;
