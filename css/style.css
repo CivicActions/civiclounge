@@ -54,7 +54,7 @@ h4 {
 }
 .hero, .footer {
   background: #D0021B url("../img/hero.png") 50% 50%; 
-  background: #D0021B url("../img/clhero.jpg") 50% 50%; 
+  background: #D0021B url("../img/clhero.png") 50% 50%; 
   color: #fff;
   text-align: center;
 }
