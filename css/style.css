@@ -170,6 +170,9 @@ a.hero-button:hover, .hero-acquia a.hero-button:hover {
 .acquia img {
   max-width: 400px;
 }
+.sponsor-civicactions {
+  text-align: center;
+}
 .sponsor-civicactions img {
   margin-bottom: 40px;
   margin-top: 35px;
