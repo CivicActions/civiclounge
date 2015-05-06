@@ -1,0 +1,162 @@
+
+body {
+  font-family: 'Lato', sans-serif;
+  padding-bottom: 0;
+  padding-top: 0;
+}
+a, a:visited {
+  color: #AC1F26;
+}
+a:hover {
+  color: #AC1F26;
+}
+h2 {
+  background: #AC1F26;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: -.03em;
+  padding: 20px;
+  text-transform: uppercase;
+}
+h3 {
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: -.03em;
+  text-transform: uppercase;
+}
+h4 {
+  font-weight: 700;
+  font-family: 'Roboto Condensed', sans-serif;
+  letter-spacing: -.03em;
+}
+.jumbotron h1 {
+  color: #000;
+  font-family: font-family: 'Lato', sans-serif;
+  font-size: 200%;
+  font-weight: 400;
+  padding-bottom: 30px; 
+}
+h2 {
+  font-size: 250%;
+}
+h3 {
+  font-size: 200%;
+  padding-bottom: 20px;
+  padding-top: 10px;
+}
+h4 {
+  font-size: 175%;
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+p, li {
+  font-size: 150%;
+}
+hr {
+  margin-bottom: 60px;
+}
+.jumbotron {
+  background: url(../img/bg-civic-lounge.png) no-repeat top left #fff;
+  border-bottom: 20px solid #AC1F26;
+  color: #000;
+}
+.jumbotron a, .jumbotron a:visited, h3 {
+  color: #000;
+}
+.jumbotron img {
+  margin-bottom: 30px;
+  max-height: auto;
+  max-width: 225px;
+  width: 100%
+}
+a.btn-jumbotron {
+  background: #AC1F26;
+  border-color: #AC1F26;
+  color: #fff;
+}
+a.btn-jumbotron:hover {
+  background: #000;
+  border-color: white;
+  color: #fff;
+}
+.jumbotron-inner {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  width: auto;
+}
+.civic {
+  color: #AC1F26;
+}
+.fa-1 {
+  font-size: 200px !important;
+}
+.sponsors img {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  height: auto;
+  width: 100%;
+}
+img.civicactions {
+  max-width: 300px;
+}
+img.drupalsquad {
+  max-width: 385px;
+}
+img.albatross {
+  max-width: 220px;
+}
+img.nucivic {
+  max-width: 250px;
+}
+.happyhour {
+  background: #000;
+  color: #fff;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+.happyhour {
+  background: #000 url(../img/hero-happyhour.png) no-repeat top left;
+}
+.happyhour a {
+  color: #fff;
+}
+.happyhour ul {
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  list-style: none;
+}
+.event {
+  background: #efefef;
+  border: 5px solid #d8d8d8;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+.event p {
+  font-size: 125%;
+}
+.exhibit img {
+  margin-bottom: 100px;
+}
+.join {
+  background: #000;
+}
+.join p {
+  margin: 0;
+  padding: 20px 0;
+}
+.join a, .join a:visited, .join a:hover {
+  color: #fff;
+}
+.footer {
+  background: #000;
+  color: #fff;
+  padding-top: 20px;
+  padding-bottom: 80px;
+}
