@@ -41,6 +41,7 @@ h2 {
   font-size: 250%;
 }
 h3 {
+  color: #000;
   font-size: 200%;
   padding-bottom: 20px;
   padding-top: 10px;
@@ -61,9 +62,6 @@ hr {
 .jumbotron {
   background: url(../img/bg-civic-lounge.png) no-repeat top left #fff;
   border-bottom: 20px solid #AC1F26;
-  color: #000;
-}
-.jumbotron a, .jumbotron a:visited, h3 {
   color: #000;
 }
 .jumbotron img {
@@ -122,9 +120,6 @@ img.nucivic {
 .happyhour {
   background: #000 url(../img/hero-happyhour.png) no-repeat top left;
 }
-.happyhour a {
-  color: #fff;
-}
 .happyhour ul {
   padding-left: 0;
   padding-right: 0;
@@ -153,10 +148,4 @@ img.nucivic {
 }
 .join a, .join a:visited, .join a:hover {
   color: #fff;
-}
-.footer {
-  background: #000;
-  color: #fff;
-  padding-top: 20px;
-  padding-bottom: 80px;
 }
