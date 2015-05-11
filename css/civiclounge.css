@@ -89,6 +89,7 @@ a.btn-jumbotron:hover {
   color: #AC1F26;
 }
 .fa-1 {
+  color: #AC1F26;
   font-size: 200px !important;
 }
 .sponsors img {
@@ -137,7 +138,7 @@ img.nucivic {
   font-size: 125%;
 }
 .twitter {
-  margin-bottom: 100px;
+  margin-bottom: 20px;
 }
 .join {
   background: #000;
@@ -148,4 +149,12 @@ img.nucivic {
 }
 .join a, .join a:visited, .join a:hover {
   color: #fff;
+}
+.footer {
+  background: #000;
+}
+.footer p {
+  font-size: 125%;
+  margin: 0;
+  padding: 20px 0;
 }
