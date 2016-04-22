@@ -1,50 +1,25 @@
-
 body {
   font-family: 'Lato', sans-serif;
   padding-bottom: 0;
   padding-top: 0;
 }
 a, a:visited {
-  color: #AC1F26;
+  color: #0071BC;
 }
 a:hover {
-  color: #AC1F26;
+  color: #205493;
 }
-h2 {
-  background: #AC1F26;
-  color: #fff;
+h1, h2, h3, h4 {
+  color: #0071BC;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  font-family: 'Roboto Condensed', sans-serif;
   letter-spacing: -.03em;
-  padding: 20px;
-  text-transform: uppercase;
-}
-h3 {
-  font-weight: 700;
-  font-family: 'Roboto Condensed', sans-serif;
-  letter-spacing: -.03em;
-  text-transform: uppercase;
-}
-h4 {
-  font-weight: 700;
-  font-family: 'Roboto Condensed', sans-serif;
-  letter-spacing: -.03em;
-}
-.jumbotron h1 {
-  color: #000;
-  font-family: font-family: 'Lato', sans-serif;
-  font-size: 200%;
-  font-weight: 400;
-  padding-bottom: 30px; 
 }
 h2 {
   font-size: 250%;
 }
 h3 {
-  color: #000;
   font-size: 200%;
-  padding-bottom: 20px;
-  padding-top: 10px;
 }
 h4 {
   font-size: 175%;
@@ -57,69 +32,84 @@ p, li {
   font-size: 150%;
 }
 hr {
-  margin-bottom: 60px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border-top: 1px solid #e1f3f8;
+}
+input {
+  margin-bottom: 10px;
 }
 .jumbotron {
-  background: url(../img/bg-civic-lounge.png) no-repeat top left #fff;
-  border-bottom: 20px solid #AC1F26;
-  color: #000;
+  background: #0071BC url(../img/hero.png) center center no-repeat;
+  color: #fff;
+  padding-bottom: 60px;
+  margin-bottom: 0;
+}
+.jumbotron h1 {
+  color: #fff;
+  font-size: 350%;
+  font-weight: 400;
+  padding-bottom: 30px; 
+}
+.jumbotron p {
+  font-weight: 300;
 }
 .jumbotron img {
   margin-bottom: 30px;
+  margin-top: 10px;
   max-height: auto;
-  max-width: 225px;
+  max-width: 300px;
   width: 100%
 }
-a.btn-jumbotron {
-  background: #AC1F26;
-  border-color: #AC1F26;
-  color: #fff;
-}
-a.btn-jumbotron:hover {
-  background: #000;
-  border-color: white;
-  color: #fff;
-}
-.jumbotron-inner {
-  background: rgba(255, 255, 255, 0.9);
-  padding: 30px;
-  width: auto;
+.icons {
+  background: #112E51;
+  padding-bottom: 50px;
+  padding-top: 60px;
 }
 .civic {
-  color: #AC1F26;
+  color: #112E51;
+  font-weight: 700;
 }
 .fa-1 {
-  color: #AC1F26;
   font-size: 200px !important;
+}
+.fa-3 {
+  font-size: 30px !important;
+}
+.sponsors {
+  padding-bottom: 60px;
+  padding-top: 40px;
 }
 .sponsors img {
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 40px;
   height: auto;
   width: 100%;
 }
 img.civicactions {
-  max-width: 300px;
-}
-img.drupalsquad {
-  max-width: 385px;
-}
-img.albatross {
-  max-width: 220px;
-}
-img.nucivic {
   max-width: 250px;
 }
-.happyhour {
-  background: #000;
-  color: #fff;
-  margin-bottom: 40px;
-  margin-top: 40px;
-  padding-bottom: 60px;
-  padding-top: 60px;
+img.drupalsquad {
+  max-width: 335px;
+}
+img.nucivic {
+  max-width: 210px;
+}
+.connect {
+  background: #112E51;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+.connect p {
+  padding-bottom: 20px;
 }
 .happyhour {
-  background: #000 url(../img/hero-happyhour.png) no-repeat top left;
+  background: #205493;
+  padding-bottom: 80px;
+  padding-top: 80px;
+}
+.happyhour a, .happyhour a:visited {
+  color: #112E51;
 }
 .happyhour ul {
   padding-left: 0;
@@ -128,33 +118,59 @@ img.nucivic {
   padding-top: 30px;
   list-style: none;
 }
-.event {
-  background: #efefef;
-  border: 5px solid #d8d8d8;
+.schedule {
   margin-bottom: 20px;
+  padding: 20px; 
+}
+.event {
+  background: #205493;
+  border: 5px solid #0071BC;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  margin-top: 10px;
   padding: 20px;
 }
-.event p {
-  font-size: 125%;
-}
 .twitter {
-  margin-bottom: 20px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 }
-.join {
-  background: #000;
+a.btn-jumbotron, .btn-default {
+  background: #0071BC;
+  border-color: #0071BC;
 }
-.join p {
-  margin: 0;
-  padding: 20px 0;
+a.btn-jumbotron:hover, .btn-default:hover, .btn-default:active {
+  background: #205493;
+  border-color: #205493;
 }
-.join a, .join a:visited, .join a:hover {
-  color: #fff;
+a.btn-dark, a.btn-dark:visited, .btn-default:active {
+  background: #112E51;
+  border-color: #112E51;
+}
+a.btn-dark:hover {
+  background: #0071BC;
+  border-color: #0071BC;
 }
 .footer {
-  background: #000;
+  background: #0071BC;
+  padding-bottom: 50px;
+}
+.footer img {
+  max-width: 200px;
 }
 .footer p {
-  font-size: 125%;
   margin: 0;
-  padding: 20px 0;
+  padding: 40px 0;
+}
+.navbar-default {
+  background: #112E51;
+  border-color: #112E51;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.navbar-default a, .navbar-default a:visited {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.connect h2, .happyhour h2, .connect, .happyhour, .event, .event a, .event a:visited, .event h4, a.btn-jumbotron, .btn-default, a.btn-jumbotron:hover, .btn-default:hover, .btn-default:active, .navbar-default a, .navbar-default a:visited, a.btn-dark, a.btn-dark:visited, .btn-default:active, a.btn-dark:hover {
+  color: #fff;
 }
