@@ -39,6 +39,13 @@ hr {
 input {
   margin-bottom: 10px;
 }
+.header img {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  max-height: auto;
+  max-width: 410px;
+  width: 100%
+}
 .jumbotron {
   background: #0071BC url(../img/hero.png) center center no-repeat;
   color: #fff;
@@ -53,13 +60,6 @@ input {
 }
 .jumbotron p {
   font-weight: 300;
-}
-.jumbotron img {
-  margin-bottom: 30px;
-  margin-top: 10px;
-  max-height: auto;
-  max-width: 400px;
-  width: 100%
 }
 .icons {
   background: #112E51;
