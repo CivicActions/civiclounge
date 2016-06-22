@@ -1,0 +1,209 @@
+body, h1, h2, h3, h4, h5, h6, button, .button, label, .sub-nav dt, .sub-nav dd, .sub-nav li {
+  font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Raleway', sans-serif;
+}
+h1 {
+  font-size: 4em;
+}
+h3, a, a:visited {
+  color: #0d9ddb;
+}
+h4 {
+  padding-bottom: .5em;
+}
+[data-magellan-expedition] {
+  background: #252525;
+}
+.sub-nav dt.active a, .sub-nav dd.active a, .sub-nav li.active a {
+  background: #0d9ddb;
+}
+.sub-nav dt a:hover, .sub-nav dd a.hover, .sub-nav li.hover a {
+  color: ##252525;
+}
+.container .line {
+  border-bottom: 1px solid #d8d8d8;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+.twitter {
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.icons {
+  text-align: center;
+}
+.icon {
+  color: #0d9ddb;
+  text-align: center;
+}
+.icon-link {
+  color: #fff;
+  display: inline;
+  padding: 1em;
+}
+.connect-box {
+  border-bottom: 1px solid #d8d8d8;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+}
+.connect {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+.hero, .footer, .hero-acquia {
+  background: #0d9ddb url("../img/hero.png") 50% 50%; 
+  color: #fff;
+  text-align: center;
+}
+.hero-acquia {
+  background: #0d9ddb url("../img/hero.png") 50% 50%; 
+}
+.hero, .hero-acquia {
+  margin-bottom: 1.5em; 
+  padding-bottom: 100px;
+  padding-top: 120px;
+}
+.hero img, .hero-acquia img {
+  height: auto;
+  max-width: 500px;
+  width: 100%;
+}
+.hero h1, .hero h4, .hero-acquia h1, .hero-acquia h4 {
+  color: #fff;
+  border: none;
+}
+.hero h4, .hero-acquia h4 {
+  letter-spacing: normal;
+  padding-top: 1em;
+}
+.hero a:hover, .hero-acquia a:hover {
+  color: #fff;
+}
+.hero ul, .hero li, .hero-acquia ul, .hero-acquia li {
+  list-style: none;
+}
+.hero ul, .hero-acquia ul {
+  padding-bottom: 1em;
+}
+.footer {
+  margin-top: 2em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+.footer a, .footer .icon {
+  color: #fff;
+}
+.footer p {
+  margin: 0;
+  padding: 0;
+}
+.agileforgov-footer p {
+  font-size: .8em;
+}
+.newsletter, .about {
+  background: #efefef;
+  background: #efefef url("../img/.png") bottom;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  padding-bottom: 2em;
+  padding-top: 2em;
+}
+.about {
+  background: #efefef;
+  margin-top: 0;
+ }
+ .events {
+  margin-bottom: 2em;
+ }
+.x-large {
+  font-size: 200px;
+}
+.large {
+  font-size: 50px;
+}
+button, .button, .button:hover {
+  background: #0d9ddb;
+  border: 1px solid #0d9ddb;
+}
+a.button {
+  color: #fff;
+}
+a.hero-button {
+  color: #0d9ddb;
+  background: #fff;
+}
+a.hero-button:hover, .hero-acquia a.hero-button:hover {
+  border: 1px solid #0d9ddb;
+  color: #0d9ddb;
+  background: #fff;
+}
+.hero-acquia a.hero-button {
+  background: transparent;
+  border-color: #fff;
+  color: #fff;
+}
+.fa-5 {
+  font-size: 150px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.center {
+  text-align: center;
+}
+.sponsors {
+  text-align: center;
+}
+.sponsors img {
+  margin-bottom: 40px;
+  margin-top: 20px;
+  max-width: 250px;
+  text-align: center;
+  width: 100%;
+}
+.acquia img {
+  max-width: 400px;
+}
+.civicactions img {
+  max-width: 275px;
+}
+.albatross img {
+  max-width: 200px;
+}
+.drupalsquad img {
+  max-width: 275px;
+}
+.nucivic img {
+  max-width: 275px;
+}
+.happyhour {
+  background: #252525;
+  color: #fff;
+  margin-bottom: 3em;
+  padding-top: 3em;
+}
+.happyhour h4 {
+  color: #fff;
+}
+.bof {
+  background: pink;
+}
+.bof-feature {
+  margin-bottom: 1em;
+  padding: 1em;
+}
+table {
+  width: 100%;
+}
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+  .my-magellan {
+      display:none;
+  }
+}
+@media only screen and (max-width: 40em) {
+  .my-magellan {
+      display:none;
+  
+}
+}

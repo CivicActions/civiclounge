@@ -1,0 +1,35 @@
+
+.details ul, .details li {
+  list-style: none;
+  margin-left: 0;
+}
+.details li {
+  padding-bottom: .5em;
+  padding-left: 0;
+}
+.ticket {
+  color: #D0021B;
+  text-align: center;
+}
+.footer {
+  background: #252525;
+  margin-bottom: 0;
+  margin-top: 400px !important;
+  padding-bottom: .5em;
+  padding-top: .5em;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+.footer p {
+  margin: 0;
+  padding: 0;
+}
+.footer a {
+  color: #fff;
+}
+.footer .button {
+  background: #D0021B;
+  margin-bottom: 0;
+}
