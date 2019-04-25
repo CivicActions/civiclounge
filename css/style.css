@@ -1,12 +1,34 @@
 html, body {
-	background-color: #db1b3b;
-	color: #fff;
+	background-color: #fff;
+	color: #212121;
 	font-family: 'Lato', sans-serif;
 }
 h1, h2, h3, h4, h5, h6 {
 	font-family: 'Ubuntu', sans-serif;
-	font-weight: 700;
+	font-weight: 300;
+}
+h1 {
+	font-size: 50px;
+}
+h2 {
+	font-size: 40px;
+	padding-bottom: 20px;
 }
 a, a:visited, a:hover {
+	color: #db1b3b;
+}
+.jumbotron {
+	background-color: #db1b3b;
+	background-image: url('../img/jumbotron.png');
 	color: #fff;
+	padding: 8em 0;
+}
+footer {
+	border-top: 1px solid #f1f1f1;
+	margin-top: 20px;
+	padding-top: 20px;
+}
+footer .fab, footer .far {
+	font-size: 25px;
+	padding: 10px;
 }
